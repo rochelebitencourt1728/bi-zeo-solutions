@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BI ZEO SOLUTIONS - Performance por Projeto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; }
+        .slide-container { width: 1280px; min-height: 720px; background: #FFFFFF; display: flex; flex-direction: column; border-top: 8px solid #111111; }
+        .header { border-bottom: 4px solid #111111; padding-top: 30px; padding-left: 40px; padding-right: 40px; }
+        .title { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 800; color: #111111; margin-bottom: 15px; }
+        .content { flex: 1; padding: 30px 40px; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+        .project { border: 2px solid #111111; padding: 14px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 20px; align-items: center; }
+        .project-name { font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #111111; }
+        .project-star { color: #C41E3A; font-size: 18px; margin-right: 8px; }
+        .metric { text-align: right; }
+        .metric-label { font-size: 11px; color: #666666; text-transform: uppercase; letter-spacing: 0.5px; }
+        .metric-value { font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 800; color: #27AE60; margin-top: 2px; }
+        .metric-value.negative { color: #C41E3A; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">🎯 Performance por Projeto</div>
+        </div>
+        <div class="content">
+            <div class="project">
+                <div><span class="project-star">⭐</span><span class="project-name">Tramontina TEEC Filtros</span></div>
+                <div class="metric"><div class="metric-label">Receitas</div><div class="metric-value">R$ 36.000</div></div>
+                <div class="metric"><div class="metric-label">Resultado</div><div class="metric-value">R$ 32.391</div></div>
+                <div class="metric"><div class="metric-label">Margem</div><div class="metric-value">89,98%</div></div>
+            </div>
+            <div class="project">
+                <div><span class="project-name">Flucor</span></div>
+                <div class="metric"><div class="metric-label">Receitas</div><div class="metric-value">R$ 2.310</div></div>
+                <div class="metric"><div class="metric-label">Resultado</div><div class="metric-value">R$ 1.918</div></div>
+                <div class="metric"><div class="metric-label">Margem</div><div class="metric-value">83,02%</div></div>
+            </div>
+            <div class="project">
+                <div><span class="project-name">Tramontina Consultoria</span></div>
+                <div class="metric"><div class="metric-label">Receitas</div><div class="metric-value">R$ 594</div></div>
+                <div class="metric"><div class="metric-label">Resultado</div><div class="metric-value">R$ 469</div></div>
+                <div class="metric"><div class="metric-label">Margem</div><div class="metric-value">78,98%</div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BI ZEO SOLUTIONS - Pontos de Atenção</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; }
+        .slide-container { 
+            width: 1280px; 
+            min-height: 720px; 
+            background: #FFFFFF; 
+            display: flex; 
+            flex-direction: column; 
+            border-top: 8px solid #111111; 
+        }
+        .header { 
+            border-bottom: 4px solid #111111; 
+            padding-top: 30px; 
+            padding-left: 40px; 
+            padding-right: 40px; 
+        }
+        .title { 
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 48px; 
+            font-weight: 800; 
+            color: #111111; 
+            margin-bottom: 15px; 
+        }
+        .content { 
+            flex: 1; 
+            padding: 30px 40px; 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 20px; 
+        }
+        .alert-card { 
+            border: 4px solid #C41E3A; 
+            padding: 24px; 
+            background: #FFFFFF; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+        }
+        .alert-number { 
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 48px; 
+            font-weight: 800; 
+            color: #C41E3A; 
+            line-height: 1; 
+            margin-bottom: 12px; 
+        }
+        .alert-title { 
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 20px; 
+            font-weight: 700; 
+            color: #111111; 
+            margin-bottom: 8px; 
+            text-transform: uppercase; 
+        }
+        .alert-text { 
+            font-size: 16px; 
+            color: #333333; 
+            line-height: 1.5; 
+        }
+        .highlight {
+            font-weight: 700;
+            color: #C41E3A;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">⚠️ Pontos de Atenção</div>
+        </div>
+        <div class="content">
+            <div class="alert-card">
+                <div class="alert-number">01</div>
+                <div class="alert-title">Concentração de Receita</div>
+                <div class="alert-text">
+                    <span class="highlight">92,5%</span> da receita total provém de um único projeto (Tramontina TEEC Filtros), representando um risco operacional elevado.
+                </div>
+            </div>
+            <div class="alert-card">
+                <div class="alert-number">02</div>
+                <div class="alert-title">Projetos Deficitários</div>
+                <div class="alert-text">
+                    <span class="highlight">6 projetos</span> não geraram receita em janeiro, acumulando custos operacionais sem retorno financeiro imediato.
+                </div>
+            </div>
+            <div class="alert-card">
+                <div class="alert-number">03</div>
+                <div class="alert-title">Desbalanceamento</div>
+                <div class="alert-text">
+                    Os custos totais excedem as receitas em <span class="highlight">R$ 4.933,68</span>, resultando em uma margem operacional negativa de <span class="highlight">-12,68%</span>.
+                </div>
+            </div>
+            <div class="alert-card">
+                <div class="alert-number">04</div>
+                <div class="alert-title">Projetos Viprado</div>
+                <div class="alert-text">
+                    Os projetos Viprado (ETE e UF) representam sozinhos <span class="highlight">50%</span> dos custos totais da empresa, com receita zero no período.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

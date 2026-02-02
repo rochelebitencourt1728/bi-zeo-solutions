@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BI ZEO SOLUTIONS - Distribuição de Receitas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; }
+        .slide-container { width: 1280px; min-height: 720px; background: #FFFFFF; display: flex; flex-direction: column; border-top: 8px solid #111111; }
+        .header { border-bottom: 4px solid #111111; padding-top: 30px; padding-left: 40px; padding-right: 40px; }
+        .title { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 800; color: #111111; margin-bottom: 15px; }
+        .content { flex: 1; padding: 30px 40px; display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center; }
+        
+        .left-panel { display: flex; flex-direction: column; gap: 24px; }
+        
+        .data-row { border-bottom: 1px solid #EEEEEE; padding-bottom: 12px; }
+        .percentage { font-family: 'Montserrat', sans-serif; font-size: 42px; font-weight: 800; color: #C41E3A; line-height: 1; }
+        .project-name { font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; color: #111111; margin-top: 4px; }
+        
+        .alert-box {
+            background: #FFF3F3;
+            border-left: 6px solid #C41E3A;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        .alert-title { font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 800; color: #C41E3A; margin-bottom: 8px; text-transform: uppercase; }
+        .alert-text { font-size: 15px; color: #333333; line-height: 1.5; }
+        
+        .right-panel { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        /* Crop the image to show mainly the left chart (Revenue) */
+        .image-container {
+            width: 600px;
+            height: 450px;
+            overflow: hidden;
+            position: relative;
+            border: 2px solid #111111;
+        }
+        
+        .chart-img {
+            position: absolute;
+            left: -30px; /* Adjust to center the left pie chart */
+            top: 0;
+            height: 100%;
+            width: auto;
+            max-width: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">📈 Distribuição de Receitas</div>
+        </div>
+        <div class="content">
+            <div class="left-panel">
+                <div class="data-row">
+                    <div class="percentage">92,5%</div>
+                    <div class="project-name">Tramontina TEEC Filtros</div>
+                </div>
+                <div class="data-row">
+                    <div class="percentage">5,9%</div>
+                    <div class="project-name">Flucor</div>
+                </div>
+                <div class="data-row">
+                    <div class="percentage">1,5%</div>
+                    <div class="project-name">Tramontina Consultoria</div>
+                </div>
+                
+                <div class="alert-box">
+                    <div class="alert-title">⚠️ Risco Operacional</div>
+                    <div class="alert-text">Alta concentração em um único projeto. Qualquer interrupção comprometerá a operação.</div>
+                </div>
+            </div>
+            
+            <div class="right-panel">
+                <div class="image-container">
+                    <img src="/home/ubuntu/bi_zeo/BI_ZEO_DISTRIBUICAO.png" alt="Gráfico de Distribuição" class="chart-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

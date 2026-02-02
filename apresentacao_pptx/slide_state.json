@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "BI ZEO SOLUTIONS",
+    "created": 1770055112.326461,
+    "last_updated": 1770055290.3654711,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "slide_01_capa",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_02_resumo",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_03_performance",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_04_deficitarios",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_05_receitas",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_06_custos",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_07_forcas",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_08_atencao",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "slide_09_recomendacoes",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "slide_10_proximos",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "slide_11_encerramento",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_01_capa",
+      "title": "BI ZEO SOLUTIONS",
+      "summary": "Capa da apresentação com título, período (Janeiro 2026) e data de preparação do relatório",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_02_resumo",
+      "title": "Resumo Financeiro",
+      "summary": "Indicadores principais: Total de Receitas R$ 38.904,00, Total de Custos R$ -43.837,68, Resultado Operacional R$ -4.933,68, Margem Média -12,68%",
+      "image_plan": "/home/ubuntu/bi_zeo/BI_ZEO_DASHBOARD.png - The image provides a detailed financial summary with various charts and a table, directly supporting the financial overview presented in the slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_03_performance",
+      "title": "Performance por Projeto",
+      "summary": "Análise dos 3 projetos com receita positiva: Tramontina TEEC Filtros (R$ 36.000, margem 89,98%), Flucor (R$ 2.310, margem 83,02%), Tramontina Consultoria (R$ 594, margem 78,98%)",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_04_deficitarios",
+      "title": "Projetos Deficitários",
+      "summary": "Tabela dos 6 projetos sem receita: Frasle, Grendene, Marcopolo, Tramontina TEEC Leitos, Viprado UF e Viprado ETE, com custos totais de R$ -43.837,68",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_05_receitas",
+      "title": "Distribuição de Receitas",
+      "summary": "Análise de concentração: Tramontina TEEC Filtros 92,5%, Flucor 5,9%, Tramontina Consultoria 1,5%. Destaque para risco operacional",
+      "image_plan": "/home/ubuntu/bi_zeo/BI_ZEO_DISTRIBUICAO.png - The image displays a 'Distribuição de Receitas' pie chart, which directly illustrates the concentration of revenues as discussed in the slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_custos",
+      "title": "Distribuição de Custos",
+      "summary": "Principais custos: Viprado ETE 50,1%, Viprado UF 21,6%, Tramontina TEEC Leitos 9,9%, Tramontina TEEC Filtros 8,2%, Demais 10,2%",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_07_forcas",
+      "title": "Pontos Fortes",
+      "summary": "Destaque para: Tramontina TEEC Filtros altamente lucrativo (89,98%), Projetos rentáveis com margens acima de 78%, Controle de custos bem estruturado",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_atencao",
+      "title": "Pontos de Atenção",
+      "summary": "Alertas: Concentração de receita (92,5% em um projeto), 6 projetos deficitários, Desbalanceamento financeiro (custos excedem receitas), Projetos Viprado com 50% dos custos e receita zero",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_09_recomendacoes",
+      "title": "Recomendações Estratégicas",
+      "summary": "Ações recomendadas: Aumentar receitas dos projetos deficitários, Diversificar fonte de receita, Otimizar estrutura de custos, Acompanhamento mensal de indicadores",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_10_proximos",
+      "title": "Próximos Passos",
+      "summary": "Plano de ação: Apresentação ao cliente, Discussão sobre estratégia, Planejamento de ações corretivas, Acompanhamento mensal, Meta de resultado positivo",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_11_encerramento",
+      "title": "Obrigado",
+      "summary": "Slide de encerramento com informações de contato, período do relatório (Janeiro 2026) e data de preparação (02 de fevereiro de 2026)",
+      "image_plan": "",
+      "slide_template_key": ""
+    }
+  ]
+}

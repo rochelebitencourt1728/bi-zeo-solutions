@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BI ZEO SOLUTIONS - Projetos Deficitários</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; }
+        .slide-container { 
+            width: 1280px; 
+            min-height: 720px; 
+            background: #FFFFFF; 
+            display: flex; 
+            flex-direction: column; 
+            border-top: 8px solid #111111; 
+        }
+        .header { 
+            border-bottom: 4px solid #111111; 
+            padding-top: 30px; 
+            padding-left: 40px; 
+            padding-right: 40px; 
+        }
+        .title { 
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 48px; 
+            font-weight: 800; 
+            color: #111111; 
+            margin-bottom: 15px; 
+        }
+        .content { 
+            flex: 1; 
+            padding: 30px 40px; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .alert-box { 
+            background: #FFF3F3; 
+            border-left: 6px solid #C41E3A; 
+            padding: 20px; 
+            margin-bottom: 30px; 
+        }
+        .alert-text { 
+            font-size: 18px; 
+            color: #333333; 
+            font-weight: 600;
+        }
+        .data-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            border: 2px solid #111111;
+        }
+        .data-table th { 
+            background: #111111; 
+            color: #FFFFFF; 
+            padding: 16px; 
+            text-align: left; 
+            font-family: 'Montserrat', sans-serif; 
+            font-weight: 700; 
+            font-size: 16px; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+        }
+        .data-table td { 
+            padding: 14px 16px; 
+            border-bottom: 1px solid #E0E0E0; 
+            font-size: 16px; 
+            color: #111111; 
+        }
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+        .data-table tr:nth-child(even) { 
+            background: #F9F9F9; 
+        }
+        .negative { 
+            color: #C41E3A; 
+            font-weight: 700; 
+            font-family: 'Montserrat', sans-serif;
+        }
+        .total-row td {
+            background: #111111;
+            color: #FFFFFF;
+            font-weight: 700;
+            border-top: 2px solid #111111;
+        }
+        .total-row .negative {
+            color: #FF6B6B; /* Lighter red for contrast on black background */
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">⚠️ Projetos Deficitários</div>
+        </div>
+        <div class="content">
+            <div class="alert-box">
+                <div class="alert-text">6 projetos sem receita em janeiro, gerando custos sem retorno operacional.</div>
+            </div>
+            
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Custos</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frasle</td>
+                        <td class="negative">R$ -425,00</td>
+                        <td class="negative">R$ -425,00</td>
+                    </tr>
+                    <tr>
+                        <td>Grendene</td>
+                        <td class="negative">R$ -2.101,49</td>
+                        <td class="negative">R$ -2.101,49</td>
+                    </tr>
+                    <tr>
+                        <td>Marcopolo</td>
+                        <td class="negative">R$ -1.443,61</td>
+                        <td class="negative">R$ -1.443,61</td>
+                    </tr>
+                    <tr>
+                        <td>Tramontina TEEC Leitos</td>
+                        <td class="negative">R$ -4.341,31</td>
+                        <td class="negative">R$ -4.341,31</td>
+                    </tr>
+                    <tr>
+                        <td>Viprado UF</td>
+                        <td class="negative">R$ -9.459,32</td>
+                        <td class="negative">R$ -9.459,32</td>
+                    </tr>
+                    <tr>
+                        <td>Viprado ETE</td>
+                        <td class="negative">R$ -21.940,98</td>
+                        <td class="negative">R$ -21.940,98</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>TOTAL</td>
+                        <td class="negative">R$ -39.711,71</td>
+                        <td class="negative">R$ -39.711,71</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "projetos": [
+    {
+      "Projeto": "Flucor",
+      "Receitas": 2310.0,
+      "Custos": -392.32,
+      "Resultado": 1917.68,
+      "Margem %": 83.01645021645022
+    },
+    {
+      "Projeto": "Frasle",
+      "Receitas": 0.0,
+      "Custos": -425.0,
+      "Resultado": -425.0,
+      "Margem %": 0
+    },
+    {
+      "Projeto": "Grendene",
+      "Receitas": 0.0,
+      "Custos": -2101.49,
+      "Resultado": -2101.49,
+      "Margem %": 0
+    },
+    {
+      "Projeto": "Marcopolo",
+      "Receitas": 0.0,
+      "Custos": -1443.61,
+      "Resultado": -1443.61,
+      "Margem %": 0
+    },
+    {
+      "Projeto": "Tramontina Consultoria",
+      "Receitas": 594.0,
+      "Custos": -124.83,
+      "Resultado": 469.17,
+      "Margem %": 78.98484848484848
+    },
+    {
+      "Projeto": "Tramontina TEEC Filtros",
+      "Receitas": 36000.0,
+      "Custos": -3608.82,
+      "Resultado": 32391.18,
+      "Margem %": 89.9755
+    },
+    {
+      "Projeto": "Tramontina TEEC Leitos",
+      "Receitas": 0.0,
+      "Custos": -4341.31,
+      "Resultado": -4341.31,
+      "Margem %": 0
+    },
+    {
+      "Projeto": "Viprado ETE",
+      "Receitas": 0.0,
+      "Custos": -21940.98,
+      "Resultado": -21940.98,
+      "Margem %": 0
+    },
+    {
+      "Projeto": "Viprado UF",
+      "Receitas": 0.0,
+      "Custos": -9459.32,
+      "Resultado": -9459.32,
+      "Margem %": 0
+    }
+  ],
+  "totais": {
+    "Projeto": "TOTAL GERAL",
+    "Receitas": 38904.0,
+    "Custos": -43837.68,
+    "Resultado": -4933.680000000001,
+    "Margem %": -12.681677976557681
+  }
+}

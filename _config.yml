@@ -1,0 +1,18 @@
+title: BI Zeo Solutions
+description: Dashboard Financeiro Mensal - Zeo Solutions
+theme: jekyll-theme-minimal
+logo: logo_zeo.jpg
+show_downloads: true
+github:
+  is_project_page: true
+  repository_url: https://github.com/seu-usuario/bi-zeo-solutions
+
+# Configurações adicionais
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Metadados
+author: Connecta
+email: bi@zeosolutions.com.br

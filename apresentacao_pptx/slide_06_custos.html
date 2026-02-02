@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BI ZEO SOLUTIONS - Distribuição de Custos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; }
+        .slide-container { width: 1280px; min-height: 720px; background: #FFFFFF; display: flex; flex-direction: column; border-top: 8px solid #111111; }
+        .header { border-bottom: 4px solid #111111; padding-top: 30px; padding-left: 40px; padding-right: 40px; }
+        .title { font-family: 'Montserrat', sans-serif; font-size: 48px; font-weight: 800; color: #111111; margin-bottom: 15px; }
+        .content { flex: 1; padding: 30px 40px; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; }
+        
+        .cost-list { display: flex; flex-direction: column; gap: 15px; }
+        .cost-item { display: flex; align-items: baseline; border-bottom: 1px solid #EEEEEE; padding-bottom: 8px; }
+        .percentage { font-family: 'Montserrat', sans-serif; font-size: 36px; font-weight: 800; color: #C41E3A; width: 140px; flex-shrink: 0; }
+        .project-name { font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; color: #111111; }
+        
+        .insight-column { display: flex; flex-direction: column; justify-content: center; }
+        .insight-box { background: #F5F5F5; border-left: 8px solid #111111; padding: 30px; }
+        .insight-title { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 800; color: #111111; margin-bottom: 15px; }
+        .insight-text { font-size: 18px; line-height: 1.6; color: #333333; margin-bottom: 20px; }
+        .highlight { color: #C41E3A; font-weight: 700; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">📊 Distribuição de Custos</div>
+        </div>
+        <div class="content">
+            <div class="cost-list">
+                <div class="cost-item">
+                    <div class="percentage">50,1%</div>
+                    <div class="project-name">Viprado ETE</div>
+                </div>
+                <div class="cost-item">
+                    <div class="percentage">21,6%</div>
+                    <div class="project-name">Viprado UF</div>
+                </div>
+                <div class="cost-item">
+                    <div class="percentage">9,9%</div>
+                    <div class="project-name">Tramontina TEEC Leitos</div>
+                </div>
+                <div class="cost-item">
+                    <div class="percentage">8,2%</div>
+                    <div class="project-name">Tramontina TEEC Filtros</div>
+                </div>
+                <div class="cost-item">
+                    <div class="percentage">10,2%</div>
+                    <div class="project-name">Demais Projetos</div>
+                </div>
+            </div>
+            
+            <div class="insight-column">
+                <div class="insight-box">
+                    <div class="insight-title">Concentração Crítica</div>
+                    <div class="insight-text">
+                        Os projetos <span class="highlight">Viprado (ETE e UF)</span> representam sozinhos <span class="highlight">71,7%</span> de todos os custos operacionais da empresa.
+                    </div>
+                    <div class="insight-text" style="margin-bottom: 0; font-size: 16px; color: #666;">
+                        <strong>Nota:</strong> Estes projetos não geraram nenhuma receita no período de Janeiro de 2026.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
